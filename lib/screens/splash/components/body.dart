@@ -1,5 +1,6 @@
 import 'package:e_shopex/components/default_button.dart';
 import 'package:e_shopex/constants.dart';
+import 'package:e_shopex/screens/sign_in/sign_in_screen.dart';
 import 'package:e_shopex/size_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -69,7 +70,9 @@ class _BodyState extends State<Body> {
                        Spacer(flex: 3),
                        DefaultButton(
                          text: "Continue",
-                         press: () {},
+                         press: () {
+                           Navigator.pushNamed(context, SignInScreen.routeName);
+                         },
                        ),
                        Spacer(flex: 1),
                     ],
