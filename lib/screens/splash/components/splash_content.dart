@@ -24,7 +24,7 @@ class SplashContent extends StatelessWidget {
           image,
           // height: getProportionateScreenHeight(290),
           // width: getProportionateScreenWidth(290),
-          height: 330,
+          height: 335,
           width: 340,
         ),
       ],
