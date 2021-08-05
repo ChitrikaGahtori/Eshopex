@@ -106,7 +106,7 @@ class _SignFormState extends State<SignForm> {
                 return null;
               },
               decoration: InputDecoration(
-                hintText: "Enter Password",
+                hintText: "Enter your Password",
                 labelText: "Password",
                 floatingLabelBehavior: FloatingLabelBehavior.always,
                 suffixIcon: CustomSuffixIcon(
