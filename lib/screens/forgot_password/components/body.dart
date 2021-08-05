@@ -2,6 +2,7 @@ import 'package:e_shopex/components/custom_svg_icon.dart';
 import 'package:e_shopex/components/default_button.dart';
 import 'package:e_shopex/components/form_error.dart';
 import 'package:e_shopex/components/no_account_text.dart';
+import 'package:e_shopex/screens/sign_in/sign_in_screen.dart';
 import 'package:e_shopex/size_config.dart';
 import 'package:flutter/material.dart';
 
@@ -16,10 +17,16 @@ class Body extends StatelessWidget {
       child: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20),
-          vertical: getProportionateScreenHeight(13)),
+          vertical: getProportionateScreenHeight(0)),
           child: Column(
             children: [
-              SizedBox(height: SizeConfig.screenHeight * 0.05),
+              // SizedBox(height: SizeConfig.screenHeight * 0),
+              Container(
+                width: SizeConfig.screenWidth * 0.656,
+                child: Image.asset(
+                  "assets/images/Forgotpassword.png",
+                ),
+              ),
               Text("Forgot Password",
                 style: TextStyle(
                   fontSize: getProportionateScreenWidth(28),
@@ -33,7 +40,7 @@ class Body extends StatelessWidget {
                   fontSize: getProportionateScreenWidth(18),
                 ),
               ),
-              SizedBox(height: SizeConfig.screenHeight * 0.09),
+              SizedBox(height: SizeConfig.screenHeight * 0.060),
               ForgotPassForm(),
             ],
           ),
@@ -102,7 +109,7 @@ class _ForgotPassFormState extends State<ForgotPassForm> {
           ),
           SizedBox(height: getProportionateScreenHeight(12),),
           FormError(errors: errors),
-          SizedBox(height: getProportionateScreenHeight(40)),
+          SizedBox(height: getProportionateScreenHeight(25)),
           Padding(
             padding: EdgeInsets.symmetric(
               horizontal: getProportionateScreenWidth(67),
@@ -117,7 +124,7 @@ class _ForgotPassFormState extends State<ForgotPassForm> {
               },
             ),
           ),
-          SizedBox(height: SizeConfig.screenHeight * 0.15),
+          SizedBox(height: SizeConfig.screenHeight * 0.132),
           NoAccountText(),
         ],
       ),
