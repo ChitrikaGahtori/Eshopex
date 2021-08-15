@@ -3,6 +3,7 @@ import 'package:e_shopex/components/default_button.dart';
 import 'package:e_shopex/components/form_error.dart';
 import 'package:e_shopex/constants.dart';
 import 'package:e_shopex/screens/forgot_password/forgot_password_screen.dart';
+import 'package:e_shopex/screens/home/home_screen.dart';
 import 'package:e_shopex/size_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -148,6 +149,8 @@ class _SignFormState extends State<SignForm> {
                 press: () {
                   if (_formkey.currentState.validate()){
                     _formkey.currentState.save();
+                    // KeyboardUtil.hideKeyboard(context);
+                    Navigator.pushNamed(context, HomeScreen.routeName);
                   }
                 },
               ),
