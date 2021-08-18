@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
                 ),
                 Text("OTP Verification",
                     style: TextStyle(
-                      fontSize: getProportionateScreenWidth(29.5),
+                      fontSize: getProportionateScreenWidth(27.58),
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
                     ),
@@ -33,7 +33,7 @@ class Body extends StatelessWidget {
                 Text("Enter the OTP sent to +917668427847",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: getProportionateScreenWidth(15.5),
+                    fontSize: getProportionateScreenWidth(16),
                   ),
                 ),
                 buildTimer(),
