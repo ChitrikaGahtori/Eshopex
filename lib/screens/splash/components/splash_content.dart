@@ -15,6 +15,7 @@ class SplashContent extends StatelessWidget {
         Spacer(flex: 3),
         Text(text ,
           style: TextStyle(
+            color: Colors.black,
             fontWeight: FontWeight.bold,
             fontSize: 18,
           ),
