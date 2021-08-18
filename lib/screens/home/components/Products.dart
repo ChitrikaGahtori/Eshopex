@@ -30,6 +30,7 @@ class Products extends StatelessWidget {
               press: () {},
             ),
           ),
+          SizedBox(height: getProportionateScreenWidth(10)),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: Row(
