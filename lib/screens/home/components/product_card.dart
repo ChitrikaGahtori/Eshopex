@@ -48,7 +48,7 @@ class ProductCard extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
-                  padding: EdgeInsets.only(left: getProportionateScreenWidth(12.8),
+                  padding: EdgeInsets.only(left: getProportionateScreenWidth(0),
                   ),
                   child: Text(
                     "Rs ${product.price}",
