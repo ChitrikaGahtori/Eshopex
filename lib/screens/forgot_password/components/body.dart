@@ -29,7 +29,7 @@ class Body extends StatelessWidget {
               ),
               Text("Forgot Password",
                 style: TextStyle(
-                  fontSize: getProportionateScreenWidth(28),
+                  fontSize: getProportionateScreenWidth(27.58),
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
                 ),
@@ -37,7 +37,7 @@ class Body extends StatelessWidget {
               Text("Enter your email address below to reset password",
               textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: getProportionateScreenWidth(18),
+                  fontSize: getProportionateScreenWidth(16),
                 ),
               ),
               SizedBox(height: SizeConfig.screenHeight * 0.060),
