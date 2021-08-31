@@ -1,3 +1,4 @@
+import 'package:e_shopex/screens/details/details_screen.dart';
 import 'package:e_shopex/screens/forgot_password/forgot_password_screen.dart';
 import 'package:e_shopex/screens/otp/otp_screen.dart';
 import 'package:e_shopex/screens/sign_in/sign_in_screen.dart';
@@ -13,5 +14,6 @@ final Map<String, WidgetBuilder> routes = {
   SignUpScreen.routeName: (context) => SignUpScreen(),
   OtpScreen.routeName: (context) => OtpScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
+  DetailsScreen.routeName: (context) => DetailsScreen(),
 };
 
