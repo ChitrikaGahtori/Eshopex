@@ -4,7 +4,7 @@ import 'package:e_shopex/screens/home/components/section_title.dart';
 import 'package:e_shopex/size_config.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:e_shopex/models/Product.dart';
+import 'package:e_shopex/models/product.dart';
 
 class Products extends StatelessWidget {
 
