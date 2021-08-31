@@ -24,7 +24,7 @@ class _ProductImagesState extends State<ProductImages> {
         Hero(
           tag: widget.product.id.toString(),
           child: Container(
-            width: getProportionateScreenWidth(250),
+            width: getProportionateScreenWidth(251),
             child: Align(
               alignment: Alignment.center,
               child: Image.asset(widget.product.images[selectedImage]),
