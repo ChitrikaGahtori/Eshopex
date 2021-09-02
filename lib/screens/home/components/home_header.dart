@@ -1,3 +1,4 @@
+import 'package:e_shopex/screens/cart/cart_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:e_shopex/size_config.dart';
 
@@ -41,7 +42,11 @@ class HomeHeader extends StatelessWidget {
                 ),
                 SizedBox(width: SizeConfig.screenWidth*0.025,),
                 GestureDetector(
-                  onTap: (){},
+                  onTap: (){
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => CartScreen()));
+                  },
                   child: Icon(
                     Icons.shopping_cart,
                     size: SizeConfig.screenWidth*0.07,
