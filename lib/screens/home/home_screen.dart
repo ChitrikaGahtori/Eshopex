@@ -1,3 +1,4 @@
+import 'package:e_shopex/screens/cart/cart_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:e_shopex/screens/home/components/body.dart';
 import 'package:e_shopex/size_config.dart';
@@ -128,7 +129,11 @@ class HomeScreen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                onTap: () {},
+                onTap: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CartScreen()));
+                },
               ),
 
               ListTile(
