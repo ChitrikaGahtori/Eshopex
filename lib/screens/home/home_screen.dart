@@ -44,7 +44,11 @@ class HomeScreen extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()));
+                },
               ),
 
               ListTile(
@@ -130,6 +134,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 onTap: (){
+                  Navigator.pop(context);
                   Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => CartScreen()));
