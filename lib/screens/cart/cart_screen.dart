@@ -20,7 +20,7 @@ class CartScreen extends StatelessWidget {
               Text("My Cart",
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: getProportionateScreenHeight(25),
+                  fontSize: getProportionateScreenHeight(25.1),
                 ),
               ),
               Text(
