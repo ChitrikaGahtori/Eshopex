@@ -19,7 +19,7 @@ class CartItemCard extends StatelessWidget {
               padding: EdgeInsets.all(getProportionateScreenWidth(10)),
               decoration: BoxDecoration(
                 color: Colors.grey.shade300,
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(14.9),
               ),
               child: Image.asset(cart.product.images[0]),
             ),
