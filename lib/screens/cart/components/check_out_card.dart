@@ -76,7 +76,13 @@ class CheckOutCard extends StatelessWidget {
                   width: getProportionateScreenWidth(175),
                   child: DefaultButton(
                     text: "Check Out",
-                    press: () {},
+                    press: () {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text("Buying not supported yet!"),
+                          )
+                      );
+                    },
                   ),
                 ),
               ],
