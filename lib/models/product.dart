@@ -95,7 +95,7 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White - Man Pant",
+    title: "Nike Sport Man T-shirt",
     price: 5999,
     rating: 4.0,
     description: "Premium Super combed cotton fabric is soft & comfortable for all day wear due to its good absorbency & breathability. Can be worn as Loungewear,comfortwear & Casual wear",
